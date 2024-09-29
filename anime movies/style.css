@@ -1,0 +1,70 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    color: black; 
+    background-color: black;
+}
+
+.main {
+    padding: 10vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: visible;
+}
+
+.card1,
+.card2,
+.card3 {
+    position: sticky;
+    top: 50vh;
+    margin: 10vh 0; 
+    width: 30vw;
+    height: 90vh;
+    padding: 2vh;
+    background: linear-gradient(rgb(66, 46, 30), gold);
+    border-radius: 20px;
+}
+
+.para > h1 {
+    text-transform: capitalize;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.top5movies {
+    width: 100%;
+    padding: 2vh 3vw;
+}
+
+.listitems {
+    padding: 2vh 5vh;
+    font-size: x-large;
+}
+
+.card2 > img,
+.card3 > img {
+    width: 100%;
+    padding: 2vh 3vw;
+}
+
+.p {
+    font-size: large;
+}
+
+.your-name > pre {
+    font-size: large;
+    white-space: pre-wrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    margin: 5px 10px;
+}

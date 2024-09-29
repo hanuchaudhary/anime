@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    color: wheat;
+    padding: 10%;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
